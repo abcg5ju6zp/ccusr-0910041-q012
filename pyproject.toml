@@ -40,6 +40,9 @@ lines-between-types = 1
 testpaths = [
     "tests/test_blueprints.py",
     "tests/test_blueprint_group.py",
+    "tests/test_audit_store.py",
+    "tests/test_audit_integration.py",
+    "tests/test_audit_edge.py",
 ]
 asyncio_mode = "auto"
 
